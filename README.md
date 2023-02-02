@@ -1,38 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Job Description Generator
 
-## Getting Started
+Utilizies Next.js, OpenAI ChatGPT and TailwindCSS to generate job descriptions.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Overview](#overview)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+  - [Demo](#demo)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Layout](#layout)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Features
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Users should be able to:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- View the optimal layout depending on their device's screen size
+- Generate custom job descriptions
+- Copy the generated job descriptions
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Screenshots
 
-## Learn More
+![Desktop Home Screen](./public/design/Desktop.png)
+![Desktop Filled Screen](./public/design/Desktop%20Filled.png)
+![Mobile Home Screen](./public/design/Mobile.png)
+![Mobile Filled Screen](./public/design/Mobile%20Filled.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Demo
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Live Site: [Vercel]()
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## My process
 
-## Deploy on Vercel
+### Built with
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js](https://nextjs.org/)
+- [OpenAi](https://openai.com)
+- [TailwindCSS](https://tailwindcss.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Author
+
+- Instagram - [@nesdevs](https://www.instagram.com/nesdevs/)
+- Twitter - [@officialnesdevs](https://www.twitter.com/officialnesdevs)
