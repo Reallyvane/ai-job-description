@@ -17,12 +17,12 @@ const generateDescription = async ({
         body: JSON.stringify({
           prompt: `Write a job description for a  ${jobTitle} role 
           ${industry ? `in the ${industry} industry` : ""} that is around ${
-            numWords || 200 // 200 is default value for numWords & Neutral default for tone
+            numWords || 200
           } words in a ${tone || "neutral"} tone. ${
             keyWords ? `Incorporate the following keywords: ${keyWords}.` : ""
           }. The job position should be described in a way that is SEO friendly, highlighting its unique features and benefits.`,
-          max_tokens: 100, // max_tokens is the maximum token used to generate the Job Description
-          temperature: 0.5, //temperature specifies the sampling temperature to use
+          max_tokens: 300,
+          temperature: 0.5,
         }),
       }
     );
